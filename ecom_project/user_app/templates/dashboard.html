@@ -1,14 +1,34 @@
 {% extends "base.html" %}
-{% block title %}About{% endblock %}
+{% block title %}About Us{% endblock %}
 
 {% block content %}
 <div class="d-flex justify-content-center mt-5">
-  <div class="card p-4 shadow text-center" style="max-width: 600px; width: 100%;">
-    <h2 class="card-title mb-3">Welcome, {{ user.username }}!</h2>
+  <div class="card p-5 shadow-lg text-center" style="max-width: 700px; width: 100%; border-radius: 15px;">
+    
+    <h2 class="card-title mb-3 text-primary">
+      Welcome to E-Shop, {{ user.username }}!
+    </h2>
+
     <p class="lead">
-      E-Shop is your online shopping platform for the latest gadgets and electronics. 
-      Browse products, add them to your cart, and enjoy a seamless shopping experience.
+      <strong>E-Shop</strong> is a modern online shopping platform designed to bring the latest 
+      gadgets and electronic products right to your fingertips.
     </p>
+
+    <p>
+      From smartphones and laptops to accessories and smart devices, E-Shop offers a wide range 
+      of high-quality products at competitive prices. Our user-friendly interface makes browsing, 
+      selecting, and purchasing products simple and enjoyable.
+    </p>
+
+    <p>
+      With secure transactions, fast delivery, and reliable customer support, we aim to provide 
+      a seamless and trustworthy shopping experience for every customer.
+    </p>
+
+    <p class="fw-semibold text-success mt-3">
+      Start exploring today and experience smarter shopping with E-Shop!
+    </p>
+
   </div>
 </div>
 {% endblock %}
